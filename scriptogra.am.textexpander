@@ -13,6 +13,102 @@
 	<array>
 		<dict>
 			<key>abbreviation</key>
+			<string>,s.am/f/tags</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2012-09-04T23:10:46Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>Front Block: Tags</string>
+			<key>lastUsed</key>
+			<date>2012-09-04T23:12:09Z</date>
+			<key>modificationDate</key>
+			<date>2012-09-04T23:19:56Z</date>
+			<key>plainText</key>
+			<string>%filltext:name=Add tags to your posts and pages.:default=comma, separated, words, or short phrases:width=80%</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>1</integer>
+			<key>uuidString</key>
+			<string>6D08E160-80F0-4665-B439-9AEC72C7873C</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>,s.am/f/excerpt</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2012-09-04T23:10:46Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>Front Block: Excerpt</string>
+			<key>lastUsed</key>
+			<date>2012-09-04T23:12:09Z</date>
+			<key>modificationDate</key>
+			<date>2012-09-04T23:22:39Z</date>
+			<key>plainText</key>
+			<string>%fillarea:name=Excerpt or short summary of your content:width=60%</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>7D7A9AF9-BA86-4F20-878A-6EE05B144CF8</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>,s.am/f/slug</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2012-09-04T23:10:46Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>Front Block: Slug</string>
+			<key>lastUsed</key>
+			<date>2012-09-04T23:12:09Z</date>
+			<key>modificationDate</key>
+			<date>2012-09-04T23:19:42Z</date>
+			<key>plainText</key>
+			<string>%filltext:name=Customize your post slug:default=slug-for-your-custom-url:width=80%</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>FEEBC609-630E-49E4-8CF1-48B585E72678</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>,s.am/f/link</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2012-09-04T23:10:46Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>Front Block: Link</string>
+			<key>lastUsed</key>
+			<date>2012-09-04T23:12:09Z</date>
+			<key>modificationDate</key>
+			<date>2012-09-04T23:26:52Z</date>
+			<key>plainText</key>
+			<string>%filltext:name=Insert an external link:default=http-//google.com:width=80%</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>6CE4FE5F-8F6C-4C2D-8C22-B2B908B1A91A</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
 			<string>,newpost</string>
 			<key>abbreviationMode</key>
 			<integer>0</integer>
@@ -44,25 +140,27 @@
 			<integer>0</integer>
 			<key>label</key>
 			<string>Insert Front Block</string>
+			<key>lastUsed</key>
+			<date>2012-09-04T23:31:01Z</date>
 			<key>modificationDate</key>
-			<date>2012-09-04T22:59:15Z</date>
+			<date>2012-09-04T23:30:40Z</date>
 			<key>plainText</key>
 			<string>---
 Date: %Y-%m-%d %1H:%M
 Title: %filltext:name=Title:default=[TITLE ME]%
-%fillpart:name=Custom Slug?%Slug: my-hypen-delimited-url-slug%fillpartend%
-%fillpart:name=Tags?:default=yes%Tags: comma, separated, words, or short phrases%fillpartend%
-%fillpart:name=Page?%Type: page%fillpartend%
-%fillpart:name=Link?%Link: http://google.com%fillpartend%
-%fillpart:name=Excerpt?%Excerpt: a short summary of your post or page%%fillpartend%
 Published: false
+%fillpart:name=Customize your post slug. %Slug: %snippet:,s.am/f/slug%%fillpartend%
+%fillpart:name=Add tags to your posts and pages?%Tags: %snippet:,s.am/f/tags%%fillpartend%
+%fillpart:name=Check to flag your content as a page (instead of a post). ?%Type: page%fillpartend%
+%fillpart:name=Link this content to an external source. %Link: %snippet:,s.am/f/link%%fillpartend%
+%fillpart:name=Excerpt or short summary of your content. %Excerpt: %snippet:,s.am/f/excerpt%%fillpartend%
 ---
 
 </string>
 			<key>snippetType</key>
 			<integer>0</integer>
 			<key>useCount</key>
-			<integer>0</integer>
+			<integer>7</integer>
 			<key>uuidString</key>
 			<string>6DBC711E-4342-4CD2-B80E-75EFC325B171</string>
 		</dict>
