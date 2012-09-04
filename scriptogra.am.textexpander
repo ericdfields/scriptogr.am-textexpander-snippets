@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>groupInfo</key>
+	<dict>
+		<key>expandAfterMode</key>
+		<integer>0</integer>
+		<key>groupName</key>
+		<string>scriptogra.am</string>
+	</dict>
+	<key>snippetsTE2</key>
+	<array>
+		<dict>
+			<key>abbreviation</key>
+			<string>,newpost</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2012-09-04T22:54:44Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>Terminal: Touch New Post</string>
+			<key>modificationDate</key>
+			<date>2012-09-04T22:58:50Z</date>
+			<key>plainText</key>
+			<string>touch %Y-%m-%d-%filltext:name=File Name (omit extension):default=new-post%.md%key:enter%</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>44AD583B-C6C1-4B69-962B-F3E9705C10DA</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>,frontblock</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2012-09-04T22:44:45Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>Insert Front Block</string>
+			<key>modificationDate</key>
+			<date>2012-09-04T22:59:15Z</date>
+			<key>plainText</key>
+			<string>---
+Date: %Y-%m-%d %1H:%M
+Title: %filltext:name=Title:default=[TITLE ME]%
+%fillpart:name=Custom Slug?%Slug: my-hypen-delimited-url-slug%fillpartend%
+%fillpart:name=Tags?:default=yes%Tags: comma, separated, words, or short phrases%fillpartend%
+%fillpart:name=Page?%Type: page%fillpartend%
+%fillpart:name=Link?%Link: http://google.com%fillpartend%
+%fillpart:name=Excerpt?%Excerpt: a short summary of your post or page%%fillpartend%
+Published: false
+---
+
+</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>6DBC711E-4342-4CD2-B80E-75EFC325B171</string>
+		</dict>
+	</array>
+</dict>
+</plist>
